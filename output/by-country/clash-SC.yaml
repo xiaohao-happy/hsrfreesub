@@ -6,20 +6,6 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - xiaohe
   type: vless
-  server: 104.21.78.225
-  port: 443
-  uuid: 4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: curly-night-6928.ggdhchjk.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: curly-night-6928.ggdhchjk.workers.dev
-- name: 🇸🇨 SC 02 - xiaohe
-  type: vless
   server: 45.130.125.96
   port: 443
   uuid: 28607fa7-db30-47d6-942a-f5744e4be9ad
@@ -32,6 +18,16 @@ proxies:
     path: /id-pusat
     headers:
       Host: dfsuporte.garena.com.ex33r.eu.cc
+- name: 🇸🇨 SC 02 - xiaohe
+  type: vmess
+  server: 156.226.183.181
+  port: 54321
+  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇸🇨 SC 03 - xiaohe
   type: vmess
   server: 156.226.183.181
