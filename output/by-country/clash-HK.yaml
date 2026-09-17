@@ -21,18 +21,18 @@ proxies:
       Host: ''
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
   type: vless
-  server: 43.159.4.80
+  server: 104.16.60.10
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: cdf5205e-897f-46a7-8d7f-21a61a80b466
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: hk1.69lover.my
   network: ws
   ws-opts:
-    path: /episode/files?ed=2560fp=chrome
+    path: /api/v2/e2fe4e52a165854d/stream
     headers:
-      Host: cdn8848.776676.xyz
+      Host: hk1.69lover.my
 proxy-groups:
 - name: PROXIES
   type: select
